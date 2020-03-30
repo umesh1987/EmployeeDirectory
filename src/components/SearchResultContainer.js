@@ -3,7 +3,6 @@ import SearchForm from "./SearchForm";
 import EmployeeCard from "./EmployeeCard";
 import API from "../utils/API";
 import "../styles/Result.css";
-const MaxResults = 20;
 
 class SearchResultContainer extends Component {
   state = {
